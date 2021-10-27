@@ -50,6 +50,10 @@
     color: white;
 }
 
+.color-blue{
+    color: var(--color-blue);
+}
+
 .flex-basis {
     flex-basis: 100%;
 }
@@ -71,7 +75,14 @@
 }
 
 .background-img {
-    background-image: url
+    background-image: url('../assets/background.png');
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+
+.p-10{
+    padding: 5rem;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -93,5 +104,9 @@
 
     .mt-10 {
         margin-top: 0;
+    }
+
+    .mobile-none{
+        display: none!important;
     }
 }
