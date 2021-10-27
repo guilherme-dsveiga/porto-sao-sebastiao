@@ -46,7 +46,7 @@
     color: var(--color-dark-blue);
 }
 
-.color-white{
+.color-white {
     color: white;
 }
 
@@ -62,24 +62,24 @@
     margin-inline-start: 5rem;
 }
 
-.bg-green{
+.bg-green {
     background-color: var(--color-green)
 }
 
-.mt-10{
+.mt-10 {
     margin-top: 5rem;
 }
 
-.background-img{
+.background-img {
     background-image: url
 }
 
 @media only screen and (max-width: 1024px) {
-    .mobile-column{
+    .mobile-column {
         flex-direction: column;
     }
 
-    .mobile-column-reverse{
+    .mobile-column-reverse {
         flex-direction: column-reverse;
     }
 
@@ -91,7 +91,7 @@
         margin-inline-start: 0;
     }
 
-    .mt-10{
+    .mt-10 {
         margin-top: 0;
     }
 }
